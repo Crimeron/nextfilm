@@ -1,0 +1,40 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    background-color: #000;
+  }
+  
+  div[data-nextjs-scroll-focus-boundary] {
+    height: 100%;
+  }
+  
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #000;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .shadow-box {
+    background-color: rgba(0, 0, 0, 0.7) !important; /* Semi-transparent black background */
+    padding: 20px !important; /* Add some padding */
+    border-radius: 8px !important; /* Optional: round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important; /* Add a shadow effect */
+  }
+  
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+  
+  
+  
+  
